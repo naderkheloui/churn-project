@@ -49,7 +49,11 @@ class ChurnInput(BaseModel):
     PUDO_delivery_1_3: int
     PUDO_delivery_ANNUEL: int
 
-
+# Commentaire issu d un collab
+"""
+code pour authentifier
+code pour afficher des stat
+"""
 #prediction
 @app.get("/")
 def read_root():
